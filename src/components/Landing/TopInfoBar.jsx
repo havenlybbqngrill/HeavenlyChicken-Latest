@@ -19,10 +19,10 @@ const TopInfoBar = () => {
         </span>
         <span className="hidden md:flex">|</span>
 
-        <a href="mailto:info@heavenlychicken.com" className="hover:underline">
+        <a href="mailto:hcrnewjersey@gmail.com" className="hover:underline">
           <span className="hidden md:flex items-center">
             <FaEnvelope className="mr-1" />
-            info@heavenlychicken.com
+            hcrnewjersey@gmail.com
           </span>
         </a>
       </div>
@@ -37,8 +37,8 @@ const TopInfoBar = () => {
             className="hidden group-hover:block md:block transition"
             title="Call us"
           >
-            <a href="tel:201-555-1234" className="hover:underline">
-              201-555-1234
+            <a href="tel:201-347-3123" className="hover:underline">
+              201-347-3123
             </a>
           </span>
           <span className="md:ml-3">|</span>
