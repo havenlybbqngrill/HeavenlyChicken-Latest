@@ -14,7 +14,7 @@ const TopInfoBar = () => {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            Jersey City, 444 Tonnelle Ave.
+            Rohit
           </a>
         </span>
         <span className="hidden md:flex">|</span>
