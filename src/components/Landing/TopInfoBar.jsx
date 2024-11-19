@@ -31,7 +31,7 @@ const TopInfoBar = () => {
       {/* Right side */}
       <div className="flex items-center space-x-4 mr-10 md:mr-0 ml-auto">
         <span className="flex items-center relative group">
-          <a href="tel:201-555-1234" className="hover:underline">
+          <a href="tel:201-347-3123" className="hover:underline">
             <FaPhoneAlt className="block mr-4 text-base mt-1 md:mr-2 md:text-sm" />
           </a>
           <span
@@ -39,7 +39,7 @@ const TopInfoBar = () => {
             title="Call us"
           >
             <a href="tel:201-347-3123" className="hover:underline">
-              201-555-1234
+             201-347-3123
             </a>
           </span>
           <span className="md:ml-3">|</span>
