@@ -18,51 +18,29 @@ export default function App() {
       <Router>
         <ToastContainer />
         <Routes>
-          {/* Public Routes */}
+          {/* Default User Routes */}
           <Route path="/" element={<Join />} />
-          
-          {/* Protected User Routes */}
-          <Route 
-            path="/landing" 
-            element={
-              <ProtectedRoute 
-                element={<Landing />} 
-                fallbackPath="/" 
-              />
-            } 
+          <Route
+            path="/subscribe"
+            element={<ProtectedRoute element={<Subscribe />} />}
           />
-          <Route 
-            path="/subscribe" 
-            element={
-              <ProtectedRoute 
-                element={<Subscribe />} 
-                fallbackPath="/" 
-              />
-            } 
+          <Route
+            path="/landing"
+            element={<ProtectedRoute element={<Landing />} />}
           />
 
           {/* Admin Routes */}
           <Route path="/admin" element={<Join />} />
-          <Route 
-            path="/admin/landing" 
-            element={
-              <AdminProtectedRoute 
-                element={<Landing />} 
-                fallbackPath="/admin" 
-              />
-            } 
+          <Route
+            path="/admin/subscribe"
+            element={<AdminProtectedRoute element={<Subscribe />} />}
           />
-          <Route 
-            path="/admin/subscribe" 
-            element={
-              <AdminProtectedRoute 
-                element={<Subscribe />} 
-                fallbackPath="/admin" 
-              />
-            } 
+          <Route
+            path="/admin/landing"
+            element={<AdminProtectedRoute element={<Landing />} />}
           />
 
-          {/* Catch-all route */}
+          {/* Redirect all other routes to the default Join page */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
