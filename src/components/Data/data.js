@@ -5,7 +5,7 @@ export const slideImage2 = "/hero-slider-2.jpg";
 export const slideImage3 = "/hero-slider-3.jpg";
 
 // Variables for slide titles
-export const slideTitle1 = "Rohit & Rohit";
+export const slideTitle1 = "For the Love of Delicious Food";
 export const slideTitle2 = "Flavors Inspired by the Seasons";
 export const slideTitle3 = "Where Every Flavor Tells a Story";
 
