@@ -1,4 +1,4 @@
-dhalimport { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaStar } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaStar } from "react-icons/fa";
 
 const TopInfoBar = () => {
   return (
@@ -14,15 +14,15 @@ const TopInfoBar = () => {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            555 Tonnelle Ave, Jersey City
+            Rohit
           </a>
         </span>
         <span className="hidden md:flex">|</span>
 
-        <a href="mailto:endhal@gmail.com" className="hover:underline">
+        <a href="mailto:hcrnewjersey@gmail.com" className="hover:underline">
           <span className="hidden md:flex items-center">
             <FaEnvelope className="mr-1" />
-            endhal@gmail.com
+            hcrnewjersey@gmail.com
           </span>
         </a>
       </div>
