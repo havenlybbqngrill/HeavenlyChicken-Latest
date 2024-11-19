@@ -1,26 +1,21 @@
-import { Navigate, useLocation } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { useNavigation } from "./NavigationContext";
 import PropTypes from "prop-types";
 
-const ProtectedRoute = ({ element }) => {
-  const location = useLocation();
+const ProtectedRoute = ({ element, fallbackPath = "/" }) => {
   const { canAccessProtectedRoute, isAdmin } = useNavigation();
 
-  const isPublicRoute =
-    location.pathname === "/subscribe" || location.pathname === "/landing";
+  // If not an admin and cannot access protected route, redirect
+  if (!canAccessProtectedRoute && !isAdmin) {
+    return <Navigate to={fallbackPath} replace />;
+  }
 
-  // Allow access for users if they have access and are not admins
-  const isAllowed = canAccessProtectedRoute && !isAdmin;
-
-  return isAllowed || (isPublicRoute && canAccessProtectedRoute) ? (
-    element
-  ) : (
-    <Navigate to="/" replace />
-  );
+  return element;
 };
 
 ProtectedRoute.propTypes = {
   element: PropTypes.element.isRequired,
+  fallbackPath: PropTypes.string
 };
 
 export default ProtectedRoute;
