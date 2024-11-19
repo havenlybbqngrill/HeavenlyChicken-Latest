@@ -1,6 +1,6 @@
 // 1️⃣Hero Slides Data
 // Variables for slide images
-export const slideImage1 = "/testImg1.png";
+export const slideImage1 = "/hero-slider-1.jpg";
 export const slideImage2 = "/hero-slider-2.jpg";
 export const slideImage3 = "/hero-slider-3.jpg";
 
