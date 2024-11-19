@@ -38,7 +38,7 @@ const TopInfoBar = () => {
             title="Call us"
           >
             <a href="tel:201-347-3123" className="hover:underline">
-              000-000-0000
+              201-555-1234
             </a>
           </span>
           <span className="md:ml-3">|</span>
