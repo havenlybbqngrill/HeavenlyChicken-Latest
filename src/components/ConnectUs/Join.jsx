@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useNavigation } from "../NavigationContext";
 import { FaPhoneAlt } from "react-icons/fa";
 
-const Join = () => {
+const Join = ({ onClose }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const { setCanAccessProtectedRoute, isAdmin, checkAdmin } = useNavigation();
@@ -26,14 +26,14 @@ const Join = () => {
     }
   };
 
-  const handleClose = () => {
-    setCanAccessProtectedRoute(true);
-    if (isAdmin) {
-      navigate("/admin/landing");
-    } else {
-      navigate("/landing");
-    }
-  };
+  // const handleClose = () => {
+  //   setCanAccessProtectedRoute(true);
+  //   if (isAdmin) {
+  //     navigate("/admin/landing");
+  //   } else {
+  //     navigate("/landing");
+  //   }
+  // };
 
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
@@ -64,7 +64,7 @@ const Join = () => {
       <div className="relative bg-white rounded-md shadow-lg w-11/12 max-w-4xl flex flex-col md:flex-row items-stretch z-10">
         <AiOutlineClose
           className="w-8 h-8 md:text-black absolute top-2 right-2 cursor-pointer md:w-6 md:h-6 z-20"
-          onClick={handleClose}
+          onClick={onClose}
         />
         <div
           className="relative flex-none w-full md:w-1/2 h-full"
