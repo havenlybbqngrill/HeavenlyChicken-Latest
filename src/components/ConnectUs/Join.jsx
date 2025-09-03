@@ -124,13 +124,13 @@ const Join = () => {
           </button>
           {/* Social Media */}
           <div className="relative pt-5 md:top-28 justify-center items-center flex space-x-2">
-            <a href="tel:201-555-1234" className="hover:underline">
+            <a href="tel:201-347-3123" className="hover:underline">
               <div className="bg-black rounded-full p-3">
                 <FaPhoneAlt className="w-4 h-4 text-white" />
               </div>
             </a>
             <a
-              href="mailto:info@heavenlychicken.com"
+              href="mailto:hcrnewjersey@gmail.com"
               className="hover:underline"
             >
               <div className="bg-black rounded-full p-3">
