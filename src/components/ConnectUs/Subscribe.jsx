@@ -46,7 +46,7 @@ const Subscribe = () => {
         if (isAdmin) {
           navigate("/admin/landing");
         } else {
-          navigate("/landing");
+          navigate("/Home");
         }
       }, 1000);
     } catch (error) {

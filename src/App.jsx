@@ -26,10 +26,10 @@ export default function App() {
             path="/subscribe"
             element={<ProtectedRoute element={<Subscribe />} />}
           />
-          <Route
+          {/* <Route
             path="/landing"
             element={<ProtectedRoute element={<Landing />} />}
-          />
+          /> */}
 
           {/* Admin Routes */}
           <Route path="/admin" element={<Join />} />
