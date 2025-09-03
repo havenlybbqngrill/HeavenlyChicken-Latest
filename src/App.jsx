@@ -22,12 +22,10 @@ export default function App() {
           {/* Default User Routes */}
           {/* <Route path="/" element={<Join />} /> */}
           <Route path="/" element={<Home />} />   {/* 👈 fixed */}
-         <Route
-  path="/subscribe"
-  element={
-    <ProtectedRoute element={<Subscribe onClose={() => console.log("close clicked")} />} />
-  }
-/>
+          <Route
+            path="/subscribe"
+            element={<ProtectedRoute element={<Subscribe />} />}
+          />
           <Route
             path="/landing"
             element={<ProtectedRoute element={<Landing />} />}

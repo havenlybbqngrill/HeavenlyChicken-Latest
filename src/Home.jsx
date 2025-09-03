@@ -21,15 +21,14 @@ export default function Home() {
 
   return (
     <>
-      {showPopup ? (
+      {showPopup && (
         popupType === "join" ? (
           <Join onClose={handleClose} />
         ) : (
-          <Subscribe onClose={handleClose} />  {/* ✅ Pass onClose here */}
+          <Subscribe onClose={handleClose} />
         )
-      ) : (
-        <Landing />
       )}
+      {!showPopup && <Landing />}
     </>
   );
 }
