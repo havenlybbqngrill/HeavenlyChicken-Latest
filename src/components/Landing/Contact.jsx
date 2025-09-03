@@ -27,7 +27,7 @@ const Contact = () => {
           <h3 className="text-xl font-semibold">Phone No</h3>
           <p className="mb-4">+1 201-347-3123</p>
           <h3 className="text-xl font-semibold">Email</h3>
-          <p>heavenlydunkirk@aol.com</p>
+          <p>hcrnewjersey@gmail.com</p>
         </div>
 
         {/* Second Box */}
