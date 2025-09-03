@@ -24,6 +24,19 @@ const Subscribe = () => {
   };
 
   const handleSubscribe = async () => {
+
+      // Simple validation
+  if (!phoneNumber.trim()) {
+    toast.error("Phone number is required!", { position: "top-center", autoClose: 2000 });
+    return;
+  }
+
+  if (!email.trim()) {
+    toast.error("Email is required!", { position: "top-center", autoClose: 2000 });
+    return;
+  }
+
+
     const googleFormActionUrl = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8JaHYIICZghpfGEaKqiX2k_2BRnA-X9KKsgBD1Ho0DvyN0g/formResponse";
     
     const formData = new FormData();
