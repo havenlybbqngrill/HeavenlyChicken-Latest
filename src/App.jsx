@@ -10,6 +10,7 @@ import Subscribe from "./components/ConnectUs/Subscribe";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AdminProtectedRoute from "./components/AdminProtectedRoute";
 import Landing from "./pages/Landing";
+import Home from "./Home";   // 👈 new
 import { ToastContainer } from "react-toastify";
 
 export default function App() {
@@ -19,7 +20,8 @@ export default function App() {
         <ToastContainer />
         <Routes>
           {/* Default User Routes */}
-          <Route path="/" element={<Join />} />
+          {/* <Route path="/" element={<Join />} /> */}
+          <Route path="/" element={<Home />} />   {/* 👈 fixed */}
           <Route
             path="/subscribe"
             element={<ProtectedRoute element={<Subscribe />} />}
