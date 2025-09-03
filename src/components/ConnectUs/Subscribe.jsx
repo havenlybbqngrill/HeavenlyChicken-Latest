@@ -6,7 +6,7 @@ import { useNavigation } from "../NavigationContext";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaPhoneAlt } from "react-icons/fa";
 
-const Subscribe = () => {
+const Subscribe = ({onClose}) => {
   const navigate = useNavigate();
   const { isAdmin } = useNavigation();
   const [isHovered, setIsHovered] = useState(false);
@@ -15,13 +15,13 @@ const Subscribe = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleClose = () => {
-    if (isAdmin) {
-      navigate("/admin/landing");
-    } else {
-      navigate("/landing");
-    }
-  };
+  // const handleClose = () => {
+  //   if (isAdmin) {
+  //     navigate("/admin/landing");
+  //   } else {
+  //     navigate("/landing");
+  //   }
+  // };
 
   const handleSubscribe = async () => {
     const googleFormActionUrl = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8JaHYIICZghpfGEaKqiX2k_2BRnA-X9KKsgBD1Ho0DvyN0g/formResponse";
@@ -88,7 +88,7 @@ const Subscribe = () => {
       <div className="relative bg-white rounded-md shadow-lg max-w-[450px] mx-auto flex flex-col items-center z-10 p-6">
         <AiOutlineClose
           className="w-8 h-8 md:text-black absolute top-2 right-2 cursor-pointer md:w-6 md:h-6 z-20"
-          onClick={handleClose}
+          onClick={onClose}
         />
         {/* Logo with Hoverable Upload for Admins */}
         <div
