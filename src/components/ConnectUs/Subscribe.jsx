@@ -146,7 +146,7 @@ const Subscribe = () => {
           <label
             className="block text-gray-700 font-medium mb-2"
             htmlFor="phoneNumber"
-          >
+           >
             Phone Number
           </label>
           <input
@@ -154,6 +154,7 @@ const Subscribe = () => {
             id="phoneNumber"
             placeholder="Enter your Phone Number"
             className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-[#F38025]"
+            required={true}
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
           />
@@ -172,6 +173,7 @@ const Subscribe = () => {
             id="email"
             placeholder="Enter your email"
             className="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:border-[#F38025]"
+            required={true}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
