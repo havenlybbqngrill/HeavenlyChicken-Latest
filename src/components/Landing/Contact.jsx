@@ -22,7 +22,7 @@ const Contact = () => {
         <div>
           <h3 className="text-xl font-semibold">Address</h3>
           <p className="mb-4">
-           <a href="https://share.google/9dA07mcnZwfKDj1nF"> Jersey City, NJ: 201-347-3123 555 Tonnelle Ave. Jersey City 07307</a>
+           <a href="https://share.google/9dA07mcnZwfKDj1nF" target="blank"> Jersey City, NJ: 201-347-3123 555 Tonnelle Ave. Jersey City 07307</a>
           </p>
           <h3 className="text-xl font-semibold">Phone No</h3>
           <p className="mb-4"> <a href="tel:+1 201-347-3123">+1 201-347-3123</a></p>
