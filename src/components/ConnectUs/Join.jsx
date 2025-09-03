@@ -117,11 +117,15 @@ const Join = ({ onClose }) => {
             meals.
           </p>
           <button
-            className="bg-[#F38025] rounded-sm px-4 py-2 font-medium leading-loose uppercase tracking-widest text-white mt-5 hover:bg-black"
-            onClick={handleSubscribe}
-          >
-            Join Today
-          </button>
+  className="bg-[#F38025] rounded-sm px-4 py-2 font-medium leading-loose uppercase tracking-widest text-white mt-5 hover:bg-black"
+  onClick={() => {
+    handleSubscribe(); // existing logic
+    if (onJoin) onJoin(); // hide popup and prevent showing again
+  }}
+>
+  Join Today
+</button>
+
           {/* Social Media */}
           <div className="relative pt-5 md:top-28 justify-center items-center flex space-x-2">
             <a href="tel:201-347-3123" className="hover:underline">
