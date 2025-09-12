@@ -43,7 +43,7 @@ export default function App() {
           />
 
           {/* Redirect all other routes to the default Join page */}
-          <Route path="*" element={<Navigate to="/" replace />} />
+{/*           <Route path="*" element={<Navigate to="/" replace />} /> */}
         </Routes>
       </Router>
     </NavigationProvider>
