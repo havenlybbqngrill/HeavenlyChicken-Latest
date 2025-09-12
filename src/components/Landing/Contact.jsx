@@ -47,20 +47,20 @@ const Contact = () => {
           <h3 className="text-xl font-semibold mb-2">Get New & Offers</h3>
           <ul className="space-y-2 mb-4">
             <li>
-              <a href="#" className="hover:underline">
+              <a href="https://www.facebook.com/HeavenlyBBQnGrill" target="_blank" className="hover:underline">
                 Facebook
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="https://www.instagram.com/heavenly_chickenribs/" target="_blank" className="hover:underline">
                 Instagram
               </a>
             </li>
-            <li>
+{/*             <li>
               <a href="#" className="hover:underline">
                 Twitter
               </a>
-            </li>
+            </li> */}
           </ul>
           <div className="flex md:justify-center mb-6 md:mr-20 lg:mr-0">
             <input
