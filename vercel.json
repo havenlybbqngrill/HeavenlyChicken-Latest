@@ -1,8 +1,11 @@
 {
-  "routes": [
+   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ],
+  "error": {
+    "404": "/404.html"
+  },
   "headers": [
     {
       "source": "/(.*)",
