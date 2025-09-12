@@ -44,8 +44,8 @@ export default function App() {
           />
 
           {/* Redirect all other routes to the default Join page */}
-            {/* <Route path="*" element={<h1>Not Found Test</h1>} /> */}
-          <Route path="*" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<NotFound />} />
+{/*           <Route path="*" element={<Navigate to="/" replace />} /> */}
         </Routes>
       </Router>
     </NavigationProvider>
