@@ -61,6 +61,7 @@ const Reviews = () => {
         backgroundImage: "url('/Reviews/reviewbg1.jpg')",
       }}
     >
+      <h2 className="text-center">Our Happy Customers</h2>
       <div className="absolute inset-0 bg-black opacity-55" />
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="flex flex-col justify-center items-center h-[50%]">

@@ -86,6 +86,7 @@ const HeroAndTopSellers = () => {
     <div className="w-full bg-black">
       <Hero />
       <div className="w-full py-5 bg-black">
+        <h1 className="text-center py-5">Heavenly Chicken & Ribs - Best BBQ Restaurant in Tonnelle Ave NJ </h1>
         <TopSellers />
       </div>
     </div>
