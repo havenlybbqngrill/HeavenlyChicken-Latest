@@ -11,6 +11,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import AdminProtectedRoute from "./components/AdminProtectedRoute";
 import Landing from "./pages/Landing";
 import Home from "./Home";   // 👈 new
+import NotFound from "./pages/NotFound";
 import { ToastContainer } from "react-toastify";
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
           />
 
           {/* Redirect all other routes to the default Join page */}
+            <Route path="*" element={<NotFound />} />
 {/*           <Route path="*" element={<Navigate to="/" replace />} /> */}
         </Routes>
       </Router>
