@@ -1,8 +1,14 @@
+import TopInfoBar from "../components/Landing/TopInfoBar";
+import Navbar from "../components/Landing/Navbar";
+import Contact from "../components/Landing/Contact";
 import BlogCard from "../components/BlogCard";
 import { blogPosts } from "../components/Data/blogData";
 
 export default function Blog() {
   return (
+     <>
+      <TopInfoBar />
+      <Navbar />
     <section className="blog-list">
       <h2>Our Blog</h2>
       <div className="blog-grid">
@@ -11,5 +17,7 @@ export default function Blog() {
         ))}
       </div>
     </section>
+     <Contact />
+    </>
   );
 }
