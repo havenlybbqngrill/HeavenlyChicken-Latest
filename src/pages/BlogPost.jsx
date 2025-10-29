@@ -8,12 +8,17 @@ export default function BlogPost() {
   if (!post) return <h2>Post not found</h2>;
 
   return (
-    <section className="blog-post">
+     <>
+      <TopInfoBar />
+      <Navbar />
+    <section className="blog-post w-full max-w-[1200px]">
       <Link to="/blog">← Back to Blog</Link>
       <img src={post.image} alt={post.title} />
       <h1>{post.title}</h1>
       <small>{post.date}</small>
       <article dangerouslySetInnerHTML={{ __html: post.content }} />
     </section>
+     <Contact />
+    </>
   );
 }

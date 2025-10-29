@@ -10,8 +10,10 @@ export default function Blog() {
       <TopInfoBar />
       <Navbar />
     <section className="blog-list">
-      <h2>Our Blog</h2>
-      <div className="blog-grid">
+      <div className="blog-banner">
+        <h2>Our Blog</h2>
+        </div>
+      <div className="blog-grid w-full max-w-[1200px]">
         {blogPosts.map((post) => (
           <BlogCard key={post.id} post={post} />
         ))}
