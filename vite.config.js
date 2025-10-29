@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', // ensures build output goes here
   },
-  base: './', // ensures assets resolve correctly in production
+  base: '/', // ensures assets resolve correctly in production
 })
