@@ -1,5 +1,5 @@
-import BlogCard from "./components/BlogCard";
-import { blogPosts } from "./data/blogData";
+import BlogCard from "../components/BlogCard";
+import { blogPosts } from "../data/blogData";
 
 export default function Blog() {
   return (
