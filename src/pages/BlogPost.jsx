@@ -1,4 +1,7 @@
 import { useParams, Link } from "react-router-dom";
+import TopInfoBar from "../components/Landing/TopInfoBar";
+import Navbar from "../components/Landing/Navbar";
+import Contact from "../components/Landing/Contact";
 import { blogPosts } from "../components/Data/blogData";
 
 export default function BlogPost() {
