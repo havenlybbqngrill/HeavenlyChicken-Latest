@@ -14,10 +14,10 @@ export default function BlogPost() {
   return (
      <>
      <Helmet>
-        <title>{post.title} | Heavenly Chicken & Ribs</title>
-        {/* <meta name="description" content={post.description} /> */}
+        <title>{post.title}</title>
+        <meta name="description" content={post.description} />
         <meta property="og:title" content={post.title} />
-        {/* <meta property="og:description" content={post.description} /> */}
+        <meta property="og:description" content={post.description} />
         <meta property="og:image" content={post.image} />
         <meta property="og:url" content={`https://www.heavenlybbqngrill.com/blog/${post.slug}`} />
         <meta property="og:type" content="article" />

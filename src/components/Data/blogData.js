@@ -3,7 +3,7 @@ export const blogPosts = [
     id: 1,
     slug: "regional-bbq-styles-across-the-us-and-how-we-bring-them-to-jc",
     title: "Regional BBQ Styles Across the U.S. and How We Bring Them to JC",
-    // date: "October 25, 2025",
+    description: "Explore regional BBQ styles from across the U.S. and discover how Heavenly Chicken & Ribs brings these delicious flavors to JC. Taste the best of American BBQ!",
     image: "/blogs/regional-bbq-styles.png",
     // excerpt: "Learn the secret to smoky, juicy BBQ chicken right from your kitchen.",
     content: `
@@ -54,7 +54,7 @@ export const blogPosts = [
     id: 2,
     slug: "why-smoking-wood-makes-all-the-difference-in-flavor",
     title: "Why Smoking Wood Makes All the Difference in Flavor",
-    // date: "October 25, 2025",
+    description: "Learn how smoking wood enhances barbecue flavor. Discover the best wood types for smoking and elevate your Heavenly Chicken & Ribs experience.",
     image: "/blogs/why-smoking-wood-img.png",
     // excerpt: "Learn the secret to smoky, juicy BBQ chicken right from your kitchen.",
     content: `<p><strong>Table of Contents</strong></p>
@@ -100,6 +100,7 @@ export const blogPosts = [
     id: 3,
     slug: "5-signature-bbq-sauces-you-can-order-online-from-heavenly-chicken-and-ribs",
     title: "5 Signature BBQ Sauces You Can Order Online from Heavenly Chicken & Ribs",
+    description: "Explore 5 signature BBQ sauces available online from Heavenly Chicken & Ribs. Order your favorites today and elevate your grilling experience!",
     image: "/blogs/5-signature-img.png",
     content: `
     <p><strong>Table of Contents</strong></p>
@@ -135,6 +136,7 @@ export const blogPosts = [
     id: 4,
     slug: "crispy-fried-vs-grilled-chicken-which-is-your-favorite",
     title: "Crispy Fried vs. Grilled Chicken - Which is Your Favorite?",
+    description: "Discover the difference between crispy fried and grilled chicken. Find out which one reigns supreme and satisfies your cravings at Heavenly Chicken & Ribs!",
     image: "/blogs/crispy-fried-img.png",
     content: `
     <p><strong>Table of Contents</strong></p>
