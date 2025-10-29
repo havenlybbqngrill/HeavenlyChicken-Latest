@@ -48,7 +48,6 @@ export default function App() {
 {/*           <Route path="*" element={<Navigate to="/" replace />} /> */}
 
  
-        <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
 
