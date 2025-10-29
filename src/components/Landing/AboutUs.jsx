@@ -47,7 +47,7 @@ const AboutUs = () => {
             animate={inView ? "visible" : "hidden"}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Established in 2006, Heavenly Chicken & Ribs is proudly owned and
+            Established in 2006 Heavenly Chicken & Ribs is proudly owned and
             operated by{" "}
             <span className="italic">Gary and Jennifer Armstrong</span>. With a
             deep commitment to our community, we take pride in giving back to
