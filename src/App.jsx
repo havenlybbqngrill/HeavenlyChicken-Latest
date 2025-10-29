@@ -46,6 +46,12 @@ export default function App() {
           {/* Redirect all other routes to the default Join page */}
             <Route path="*" element={<NotFound />} />
 {/*           <Route path="*" element={<Navigate to="/" replace />} /> */}
+
+ 
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+
         </Routes>
       </Router>
     </NavigationProvider>
