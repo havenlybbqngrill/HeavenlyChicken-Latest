@@ -7,7 +7,7 @@
     text-align: center;
     padding: 100px 0px;
 }
-.blog-banner h2 {color: #fff;  font-family: Forum,serif;  font-size: 3rem; font-weight: 400; }
+.blog-banner h1 {color: #fff;  font-family: Forum,serif;  font-size: 3rem; font-weight: 400; }
 
 .blog-grid{margin: 0 auto; padding: 40px 20px;}
 /* 🌐 Blog Grid Layout */

@@ -11,7 +11,7 @@ export default function Blog() {
       <Navbar />
     <section className="blog-list">
       <div className="blog-banner">
-        <h2>Our Blog</h2>
+        <h1>Our Blog</h1>
         </div>
       <div className="blog-grid w-full max-w-[1200px]">
         {blogPosts.map((post) => (
