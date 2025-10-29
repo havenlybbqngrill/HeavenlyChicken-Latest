@@ -15,7 +15,7 @@ export default function BlogPost() {
       <Link to="/blog">← Back to Blog</Link>
       <img src={post.image} alt={post.title} />
       <h1>{post.title}</h1>
-      <small>{post.date}</small>
+      {/* <small>{post.date}</small> */}
       <article dangerouslySetInnerHTML={{ __html: post.content }} />
     </section>
      <Contact />
