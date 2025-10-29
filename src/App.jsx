@@ -12,6 +12,8 @@ import AdminProtectedRoute from "./components/AdminProtectedRoute";
 import Landing from "./pages/Landing";
 import Home from "./Home";   // 👈 new
 import NotFound from "./pages/NotFound";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import { ToastContainer } from "react-toastify";
 
 export default function App() {
