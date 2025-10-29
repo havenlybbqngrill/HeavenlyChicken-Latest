@@ -15,11 +15,10 @@ import NotFound from "./pages/NotFound";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import { ToastContainer } from "react-toastify";
-import useBodyId from "./hooks/useBodyId";
+
 
 export default function App() {
 
-  useBodyId(); // Gerate random id in body for help in design
 
   return (
     <NavigationProvider>
