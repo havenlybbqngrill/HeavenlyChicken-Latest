@@ -3,6 +3,7 @@ import TopInfoBar from "../components/Landing/TopInfoBar";
 import Navbar from "../components/Landing/Navbar";
 import Contact from "../components/Landing/Contact";
 import { blogPosts } from "../components/Data/blogData";
+import { Helmet } from "react-helmet-async";
 
 export default function BlogPost() {
   const { slug } = useParams();
@@ -12,6 +13,15 @@ export default function BlogPost() {
 
   return (
      <>
+     <Helmet>
+        <title>{post.title} | Heavenly Chicken & Ribs</title>
+        {/* <meta name="description" content={post.description} /> */}
+        <meta property="og:title" content={post.title} />
+        {/* <meta property="og:description" content={post.description} /> */}
+        <meta property="og:image" content={post.image} />
+        <meta property="og:url" content={`https://www.heavenlybbqngrill.com/blog/${post.slug}`} />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <TopInfoBar />
       <Navbar />
     <section className="blog-post w-full max-w-[1200px]">
