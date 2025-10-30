@@ -92,6 +92,9 @@ const Navbar = () => {
             >
               Contact
             </Link>
+            <Link to="/blog"  className={`text-white cursor-pointer pb-2 ${
+                activeLink === "Blog" ? "border-b-2 border-[#D68240]" : ""
+              }`}>Blog</Link>
           </div>
 
           {/* Button */}
