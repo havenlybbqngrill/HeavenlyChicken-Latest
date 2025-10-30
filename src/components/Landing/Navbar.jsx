@@ -78,7 +78,7 @@ const Navbar = () => {
             <ScrollLink
               to="home"
               smooth={true}
-              onClick={() => handleLinkClick("Home")}
+              onClick={() => handleLinkClick("Home", "home")}
               className={`text-white cursor-pointer pb-2 ${
                 activeLink === "Home" ? "border-b-2 border-[#D68240]" : ""
               }`}
@@ -89,7 +89,7 @@ const Navbar = () => {
             <ScrollLink
               to="about"
               smooth={true}
-              onClick={() => handleLinkClick("About Us")}
+              onClick={() => handleLinkClick("About Us", "about")}
               className={`text-white cursor-pointer pb-2 ${
                 activeLink === "About Us" ? "border-b-2 border-[#D68240]" : ""
               }`}
@@ -99,7 +99,7 @@ const Navbar = () => {
             <ScrollLink
               to="menu"
               smooth={true}
-              onClick={() => handleLinkClick("Menus")}
+              onClick={() => handleLinkClick("Menus", "menu")}
               className={`text-white cursor-pointer pb-2 ${
                 activeLink === "Menus" ? "border-b-2 border-[#D68240]" : ""
               }`}
@@ -109,7 +109,7 @@ const Navbar = () => {
             <ScrollLink
               to="contact"
               smooth={true}
-              onClick={() => handleLinkClick("Contact")}
+              onClick={() => handleLinkClick("Contact", "contact")}
               className={`text-white cursor-pointer pb-2 ${
                 activeLink === "Contact" ? "border-b-2 border-[#D68240]" : ""
               }`}
@@ -161,7 +161,7 @@ const Navbar = () => {
             <ScrollLink
               to="home"
               smooth={true}
-              onClick={() => handleLinkClick("Home")}
+              onClick={() => handleLinkClick("Home", "home")}
               className="text-white cursor-pointer"
             >
               Home
@@ -170,7 +170,7 @@ const Navbar = () => {
             <ScrollLink
               to="about"
               smooth={true}
-              onClick={() => handleLinkClick("About Us")}
+              onClick={() => handleLinkClick("About Us", "about")}
               className="text-white cursor-pointer"
             >
               About Us
@@ -178,7 +178,7 @@ const Navbar = () => {
             <ScrollLink
               to="menu"
               smooth={true}
-              onClick={() => handleLinkClick("Menus")}
+              onClick={() => handleLinkClick("Menus", "menu")}
               className="text-white cursor-pointer"
             >
               Menus
@@ -186,7 +186,7 @@ const Navbar = () => {
             <ScrollLink
               to="contact"
               smooth={true}
-              onClick={() => handleLinkClick("Contact")}
+              onClick={() => handleLinkClick("Contact", "contact")}
               className="text-white cursor-pointer"
             >
               Contact
