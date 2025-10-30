@@ -116,14 +116,16 @@ const Navbar = () => {
             >
               Contact
             </ScrollLink>
-             <RouterLink
-        to="/blog"
-        className={`text-white pb-2 ${
-          activeLink === "Blog" ? "border-b-2 border-[#D68240]" : ""
-        }`}
-      >
-        Blog
-      </RouterLink>
+           <RouterLink
+  to="/blog"
+  onClick={() => handleLinkClick("Blog", null)} // ✅ updates activeLink
+  className={`text-white cursor-pointer pb-2 transition-all duration-300 ${
+    activeLink === "Blog" ? "border-b-2 border-[#D68240]" : "border-b-2 border-transparent"
+  } hover:border-[#D68240]`}
+>
+  Blog
+</RouterLink>
+
           </div>
 
           {/* Button */}
