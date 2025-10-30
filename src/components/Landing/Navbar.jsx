@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +53,7 @@ const Navbar = () => {
 
           {/* Links for larger screens */}
           <div className="hidden md:flex space-x-8">
-            <Link
+            <ScrollLink
               to="home"
               smooth={true}
               onClick={() => handleLinkClick("Home")}
@@ -60,9 +62,9 @@ const Navbar = () => {
               }`}
             >
               Home
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               to="about"
               smooth={true}
               onClick={() => handleLinkClick("About Us")}
@@ -71,8 +73,8 @@ const Navbar = () => {
               }`}
             >
               About Us
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="menu"
               smooth={true}
               onClick={() => handleLinkClick("Menus")}
@@ -81,8 +83,8 @@ const Navbar = () => {
               }`}
             >
               Menus
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="contact"
               smooth={true}
               onClick={() => handleLinkClick("Contact")}
@@ -91,15 +93,15 @@ const Navbar = () => {
               }`}
             >
               Contact
-            </Link>
-             <Link
+            </ScrollLink>
+             <RouterLink
         to="/blog"
         className={`text-white pb-2 ${
           activeLink === "Blog" ? "border-b-2 border-[#D68240]" : ""
         }`}
       >
         Blog
-      </Link>
+      </RouterLink>
           </div>
 
           {/* Button */}
