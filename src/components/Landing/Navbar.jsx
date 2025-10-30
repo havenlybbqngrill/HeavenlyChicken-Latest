@@ -119,11 +119,7 @@ const Navbar = () => {
        <RouterLink
   to="/blog"
   onClick={() => handleLinkClick("Blog", null)}
-  className={`text-white cursor-pointer pb-2 transition-all duration-300 ${
-    location.pathname.startsWith("/blog")
-      ? "border-b-2 border-[#D68240]" // ✅ highlight when /blog or /blog/:slug
-      : "border-b-2 border-transparent"
-  } `}
+  className={`text-white cursor-pointer pb-2 transition-all duration-300 `}
 >
   Blog
 </RouterLink>
