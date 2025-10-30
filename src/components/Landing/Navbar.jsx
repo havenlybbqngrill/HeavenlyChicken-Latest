@@ -18,10 +18,10 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleLinkClick = (link) => {
-    setActiveLink(link);
-    setIsOpen(false);
-  };
+  // const handleLinkClick = (link) => {
+  //   setActiveLink(link);
+  //   setIsOpen(false);
+  // };
 
    // 🟢 UPDATED HANDLER
   const handleLinkClick = (link, target) => {
