@@ -116,12 +116,14 @@ const Navbar = () => {
             >
               Contact
             </ScrollLink>
-           <RouterLink
+       <RouterLink
   to="/blog"
-  onClick={() => handleLinkClick("Blog", null)} // ✅ updates activeLink
+  onClick={() => handleLinkClick("Blog", null)}
   className={`text-white cursor-pointer pb-2 transition-all duration-300 ${
-    activeLink === "Blog" ? "border-b-2 border-[#D68240]" : "border-b-2 border-transparent"
-  } hover:border-[#D68240]`}
+    location.pathname.startsWith("/blog")
+      ? "border-b-2 border-[#D68240]" // ✅ highlight when /blog or /blog/:slug
+      : "border-b-2 border-transparent"
+  } `}
 >
   Blog
 </RouterLink>
