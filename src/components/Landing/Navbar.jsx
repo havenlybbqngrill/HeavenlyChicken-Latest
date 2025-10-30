@@ -136,39 +136,39 @@ const Navbar = () => {
       >
         <div className="flex flex-col h-full justify-between mt-16 uppercase">
           <div className="flex flex-col space-y-6 p-6 z-50">
-            <Link
+            <ScrollLink
               to="home"
               smooth={true}
               onClick={() => handleLinkClick("Home")}
               className="text-white cursor-pointer"
             >
               Home
-            </Link>
+            </ScrollLink>
 
-            <Link
+            <ScrollLink
               to="about"
               smooth={true}
               onClick={() => handleLinkClick("About Us")}
               className="text-white cursor-pointer"
             >
               About Us
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="menu"
               smooth={true}
               onClick={() => handleLinkClick("Menus")}
               className="text-white cursor-pointer"
             >
               Menus
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               to="contact"
               smooth={true}
               onClick={() => handleLinkClick("Contact")}
               className="text-white cursor-pointer"
             >
               Contact
-            </Link>
+            </ScrollLink>
           </div>
 
           {/* Button */}
