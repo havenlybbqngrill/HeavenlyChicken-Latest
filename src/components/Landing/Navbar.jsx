@@ -1,13 +1,18 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { useNavigate, useLocation } from "react-router-dom";
 // import { Link } from "react-scroll";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("Home");
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const navigate = useNavigate();  
+  const location = useLocation(); 
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -16,6 +21,23 @@ const Navbar = () => {
   const handleLinkClick = (link) => {
     setActiveLink(link);
     setIsOpen(false);
+  };
+
+   // 🟢 UPDATED HANDLER
+  const handleLinkClick = (link, target) => {
+    setActiveLink(link);
+    setIsOpen(false);
+
+    // If not on home, navigate first then scroll to section
+    if (location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        const element = document.getElementById(target);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500); // small delay to allow home to render
+    }
   };
 
   // Scroll listener to change navbar styles on scroll
@@ -169,6 +191,14 @@ const Navbar = () => {
             >
               Contact
             </ScrollLink>
+             <RouterLink
+        to="/blog"
+        className={`text-white pb-2 ${
+          activeLink === "Blog" ? "border-b-2 border-[#D68240]" : ""
+        }`}
+      >
+        Blog
+      </RouterLink>
           </div>
 
           {/* Button */}
