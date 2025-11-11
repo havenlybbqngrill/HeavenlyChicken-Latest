@@ -19,7 +19,7 @@ const Subscribe = () => {
     if (isAdmin) {
       navigate("/admin/landing");
     } else {
-      navigate("/Home");
+      navigate("/");
     }
   };
 
@@ -59,7 +59,7 @@ const Subscribe = () => {
         if (isAdmin) {
           navigate("/admin/landing");
         } else {
-          navigate("/Home");
+          navigate("/");
         }
       }, 1000);
     } catch (error) {
