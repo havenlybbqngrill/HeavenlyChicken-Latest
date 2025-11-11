@@ -47,26 +47,13 @@ const AboutUs = () => {
             animate={inView ? "visible" : "hidden"}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Established in 2006 Heavenly Chicken & Ribs is proudly owned and
-            operated by{" "}
-            <span className="italic">Gary and Jennifer Armstrong</span>. With a
-            deep commitment to our community, we take pride in giving back to
-            the very place that has supported us over the years. Our connections
-            run deep with the locals—the schools, churches, beaches, and the
-            many organizations that are woven into the fabric of our area.
+            Established in 2006, Heavenly Chicken & Ribs is proudly owned and operated by Gary and Jennifer Armstrong. With a deep commitment to our community, we take pride in giving back to the very place that has supported us over the years. Our connections run deep with the locals—the schools, churches, beaches, and the many organizations that are woven into the fabric of our area.{" "}
             <br />
             <br />
-            Many years ago, recognizing a growing need for more dining options,
-            we set out to create a space that could serve our community. As
-            locals ourselves, we understood the demand for quality food in our
-            area. With our previous experience in the food industry, we rolled
-            up our sleeves and established our little hole in the wall.
+            Many years ago, recognizing a growing need for more dining options, we set out to create a space that could serve our community. As locals ourselves, we understood the demand for quality food in our area. Whether you’re stopping by for the best breakfast in Garfield, NJ or craving our flavorful wings in Jersey City & Garfield, we’ve got something to satisfy every appetite. With our previous experience in the food industry, we rolled up our sleeves and established our little hole in the wall.
             <br />
             <br />
-            Today, we are proud to be a part of Calvert County for over a
-            decade, providing job opportunities for the younger generation and
-            fostering a sense of community. We cherish our food, our dedicated
-            staff, our customers, and our beloved Southern Maryland.
+           Today, we are proud to be a part of Calvert County for over a decade, providing job opportunities for the younger generation and fostering a sense of community. We cherish our food, our dedicated staff, our customers, and our beloved Southern Maryland.
           </motion.p>
         </div>
 
