@@ -14,9 +14,11 @@ export default function Blog() {
         <h1>Our Blog</h1>
         </div>
       <div className="blog-grid w-full max-w-[1200px]">
-        {blogPosts.map((post) => (
-          <BlogCard key={post.id} post={post} />
-        ))}
+       {[...blogPosts]
+  .sort((a, b) => b.id - a.id)
+  .map((post) => (
+    <BlogCard key={post.id} post={post} />
+))}
       </div>
     </section>
      <Contact />
