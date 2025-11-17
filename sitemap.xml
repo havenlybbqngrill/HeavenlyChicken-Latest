@@ -1,16 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://www.heavenlybbqngrill.com/</loc>
-  <lastmod>2025-09-12T07:56:52+00:00</lastmod>
+<loc>https://www.heavenlybbqngrill.com/</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>1.0</priority>
 </url>
-
-
+<url>
+<loc>https://www.heavenlybbqngrill.com/subscribe</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/family-dinner-made-easy-how-to-choose-and-share-bundles-at-heavenly-bbq</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/bowls-burgers-and-wraps-how-heavenly-bbq-n-grill-offers-something-for-every-craving</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/catering-with-bbq-why-bbq-is-a-smart-choice-for-your-next-event</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/wings-vs-tenders-vs-fried-chicken-whats-your-go-to-and-why</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/weekend-vibes-why-heavenly-bbq-n-grill-is-garfields-go-to-breakfast-spot</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/why-locals-say-we-serve-the-best-breakfast-in-garfield-nj</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/best-chicken-sandwiches-to-try-in-jersey-city</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/meal-bundles-for-families-easy-online-ordering-in-jersey-city</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/top-rib-sauces-and-flavors-you-can-order-online</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/why-our-sandwiches-stand-out-from-other-jersey-city-options</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/crispy-fried-vs-grilled-chicken-which-is-your-favorite</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/5-signature-bbq-sauces-you-can-order-online-from-heavenly-chicken-and-ribs</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/why-smoking-wood-makes-all-the-difference-in-flavor</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.heavenlybbqngrill.com/blog/regional-bbq-styles-across-the-us-and-how-we-bring-them-to-jc</loc>
+<lastmod>2025-11-17</lastmod>
+<priority>0.8</priority>
+</url>
 </urlset>
