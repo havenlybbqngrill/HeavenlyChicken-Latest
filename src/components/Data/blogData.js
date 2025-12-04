@@ -1011,7 +1011,7 @@ They feel lighter than deep-fried fast food.</p>
 `,
   },
   {
-    id: 17,
+    id: 18,
     slug: "creative-ways-to-use-grilled-chicken-in-mexican-recipes",
     title: "Creative Ways to Use Grilled Chicken in Mexican Recipes",
     description: "Explore creative ways to use grilled chicken in Mexican recipes. Add bold flavor to tacos, bowls, salads, and more with simple, delicious meal ideas.",
