@@ -153,7 +153,8 @@ const Menu = () => {
         </div>
 
         {/* Menu Grid */}
-        replace this with menu grid container  {/* Menu Grid */}
+        {/* replace this with menu grid container  */}
+         {/* Menu Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 max-w-[1000px] mx-auto ">
           {dishes.map((dish, idx) => (
             <div key={idx} className="relative">
